@@ -59,5 +59,28 @@ body {
     font-weight: bold;
 }
 .row .heading{
-  
+  font-family: "Lobster", cursive;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 30px;
+}
+.row{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.row-q{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.row-q span{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.row-q textarea{
+  border:1px solid grey;
+  padding: 15px;
+  border-radius: 5px;
 }
